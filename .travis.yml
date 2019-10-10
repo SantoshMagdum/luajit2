@@ -1,12 +1,10 @@
 sudo: required
 dist: xenial
 
-os: linux
-
-matrix:
-    include:
-        - os: linux-ppc64le
-
+os: 
+  - linux
+  - linux-ppc64le
+ 
 language: c
 
 compiler:
